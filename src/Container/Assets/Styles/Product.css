@@ -1,0 +1,87 @@
+.container{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 100%;
+  }
+    
+  .text{
+    display: inline;
+    width: 100%;
+  }
+    
+  .read-or-hide{
+    color: rgb(66, 61, 61);
+    cursor: pointer;
+    font-size: small;
+  }
+  .product{
+    margin-top:5%;
+    width: 100%;
+  }
+  .product p{
+    font-size: larger;
+  }
+  .product-form{
+    display: flex;
+    width:100%;
+  }
+  .product-form img{
+    height:90px;
+    width:90px;
+    display: block;
+    margin-left:42%;
+  }
+  .product-section{
+    width:50%;
+    display: block;
+    padding:1%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size:12px;
+    margin:2%;
+  }
+  .product-form label{
+    font-size: larger;
+    font-weight: bold;
+    color:#E74C3C;
+    display: block;
+    
+  }
+  .Pbutton{
+    background: #CB4335;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    margin-top: 5%;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .Pbutton:hover,
+  .Pbutton:active,
+  .SPbutton:hover,
+  .SPbutton:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+  }
+  
+  .Pbutton:active, .SPbutton:active {
+    opacity: .5;
+  }
+  
