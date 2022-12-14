@@ -38,7 +38,7 @@ function Navbar() {
       </nav>
             <div className='logo'>
             <img src={logo} alt='logo'/>
-            <label>Technology Solution Nepal</label>
+            <label>Technology Solution Nepal test</label>
             </div>
       </div> 
   )
